@@ -19,6 +19,9 @@ submitButton.addEventListener("click", () => {
 
               comments.appendChild(dateElement);
               comments.appendChild(newComment);
+
+              //  Delete user's text after submitting comment
+              document.getElementById("commentInput").value = "";
        }
 });
 
